@@ -1,0 +1,74 @@
+<!--exemplo12.html-->
+<!DOCTYPE html>
+<html>
+<html lang="pt-br">
+<head>
+    <title>Exemplo</title>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+        body{
+            background-color:#003366;
+        }
+        #principal{
+            width: 757px;
+            margin:0 auto;
+        }
+        h2{
+            color:#990000;
+        }
+        .data{
+            color:#999999;
+            font-size:8pt;
+        }
+        #topo_geral{
+            background-image:url(imagens/topo.JPG);
+            height: 62px
+            background-repeat no-repeat;
+        }
+        article>p{
+            text-align:justify;
+        }
+        article{
+            background-color:#FFF;
+            padding:50px
+        }
+        ul{
+            list-style:none;
+            padding:0;
+            margin:0;
+        }
+        li{
+            display:inline;
+        }
+        nav{
+            background-color:#003300;
+            color:#FFFFFF;
+            padding:5px
+        }
+    </style>
+<body>
+    <div id="principal">
+        <header id="topo_geral"></header>
+        <nav>
+            <ul>
+                <li>HOME</li> | <li>Notícias</li> | <li>Galeria</li> | <li>Contato</li>
+            </ul>
+        </nav>
+            <article>
+                <header id="topo_article">
+                    <h2>Título da Notícia</h2>
+                    <span class="data">data e hora da notícia</span>
+                </header>
+                    <figure>
+                        <img scr="imagem">
+                        <figcaption>
+                            Legenda
+                        </figcaption>
+                    </figure>
+                <p>Texto da notícia</p>
+                ...
+            </article>
+    </div>
+</body>
+</head>
+</html>

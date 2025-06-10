@@ -1,0 +1,53 @@
+/*Corpo*/
+
+body{
+    background-color: rgb(17, 19, 20);
+}
+
+/*Tags*/
+
+h1{
+    text-align: center;
+    text-size-adjust: 12pt;
+}
+article{
+    background-color: white;
+    padding: 50px;
+}
+figcaption{
+    color: rgb(88, 88, 88);
+    font-size: 10pt;
+    text-align: center;
+}
+
+/*Tags Com Ligação Parental*/
+
+article>p{
+    text-align: justify;
+}
+ol>li{
+    list-style-type: none;
+}
+figure>figcaption{
+    text-align: center;
+}
+
+/*Classes (Pesquisei como deixar o vídeo e a imagem centralizados pois não sabia)*/
+
+.imagem_centralizada{
+    display: block;
+    margin: 0 auto;
+}
+.video_centralizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*Estilos Individuais*/
+
+#bloco_do_artigo{
+    width: 1280px;
+    margin: 0 auto;
+}
